@@ -4,7 +4,6 @@ namespace HelloWorldMongoDb.Tests;
 
 public class UnitTest1
 {
-
     /// <summary>
     /// Tests the functionality of a specific feature or method.
     /// </summary>
