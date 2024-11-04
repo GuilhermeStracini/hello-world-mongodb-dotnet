@@ -1,6 +1,14 @@
 name: Fix SonarCloud Issues with Pixeebot
 on:
   check_run:
+  dashboard:
+    name: Update Pixeebot Activity Dashboard
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Update Dashboard
+        run: |
     types: [completed]
 
 permissions:
