@@ -1,0 +1,5 @@
+dashboard:
+  sections:
+    - open_issues
+    - pull_request_statuses
+    - code_quality_indicators
